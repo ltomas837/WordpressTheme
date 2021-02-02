@@ -1,0 +1,189 @@
+/*
+Theme Name: wpbootstrap
+Theme URI: No URI
+Author: Léo Tomas
+Author URI: No URI
+Description: For evaluation
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: wpbootstrap
+*/
+
+/* stylelint-disable selector-list-comma-newline-after */
+
+
+.container-fluid-green {
+  @extend .container-fluid;
+  background-color: #27737b;
+  height: 100vh;
+  color: white;
+}
+
+.container-fluid-uncolored {
+  @extend .container-fluid;
+  height: 100vh;
+}
+
+
+.row{
+  margin-right:1%
+}
+
+
+.col-1{
+  padding-top: 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+  overflow-wrap: break-word;
+  height: 100vh;
+  padding-left: 7%;
+}
+
+.col-2{
+  overflow-wrap: break-word;
+  height: 100vh;
+}
+
+.col-3{
+  padding-top: 7%;
+  padding-right: 7%;
+  overflow-wrap: break-word;
+  height: 100vh;
+}
+
+.col-4{
+  text-align: right;
+  margin: auto;
+}
+
+.col-5{
+  padding-top: 7%;
+  overflow-wrap: break-word;
+  height: 100vh;
+}
+
+
+
+.img-bottom-firstPicture{
+  position: absolute;
+  bottom:0;
+  margin-left: -5%;
+}
+
+.img-bottom{
+  position: absolute;
+  bottom:0;
+}
+
+.img-bottom-center{
+  padding-left: 50%;
+  position: absolute;
+  bottom:0;
+  display: block;
+}
+
+.img-up-center{
+  padding-left: 50%;
+  position: absolute;
+  display: block;
+}
+
+input {
+  width: 100%;
+  background-color:transparent;
+  border: 1px solid;
+  border-color: transparent;
+  border-bottom-color: white;
+  color: white;
+}
+
+.half-input-left {
+  width: 48%;
+}
+
+.half-input-right {
+  width: 48%;
+  margin-left: 4%;
+}
+
+
+::placeholder {
+  color: white;
+  opacity: 1;
+}
+
+.inputName::placeholder {
+  font-style: italic;
+  font-size: 0.9em;
+}
+
+button {
+  background-color:transparent;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: 1px solid;
+}
+
+.buttonForm {
+  border-color: white;
+  color: white;
+}
+
+.otherButton {
+  border-color: black;
+  color: black;
+}
+
+a {
+  opacity: 0.2;
+  color: black;
+}
+
+.form {
+  margin-top: 5%;
+  overflow: auto;
+}
+
+.buttonDiv {
+  margin-top: 10%;
+  overflow: auto;
+}
+
+.smallText {
+  font-size:11px;
+}
+
+.halfScreenImg{
+  margin-left: -8%;
+}
+
+.titleFont {
+  font-size:20px
+}
+
+.numberFont{
+  color:#27737b; 
+  font-size:30px;
+}
+
+.paragraphMiddle{
+  margin-top: 10%;
+}
+
+.followingParagraph{
+  margin-top: 5%;
+}
+
+p {
+  line-height: 22px;
+}
+
+.ancorTop {
+  margin-bottom: 20px;
+}
+
+.ancorBottom {
+  margin-top: 20px;
+}
